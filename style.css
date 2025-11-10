@@ -380,6 +380,10 @@ section.fade-in {
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
 
+.project-card:nth-child(4) .project-icon {
+    background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+}
+
 /* Contact Section */
 .contact-content {
     display: grid;
