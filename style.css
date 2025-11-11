@@ -225,6 +225,10 @@ section.fade-in {
     background-attachment: fixed;
 }
 
+.about .section-title {
+    color: rgba(255, 255, 255, 0.95);
+}
+
 .about-content {
     max-width: 800px;
     margin: 0 auto;
@@ -573,6 +577,10 @@ section.fade-in {
 .contact .container {
     position: relative;
     z-index: 1;
+}
+
+.contact .section-title {
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .contact-content {
