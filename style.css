@@ -35,9 +35,9 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(120deg, rgba(10, 14, 35, 0.92), rgba(12, 18, 48, 0.85));
+    backdrop-filter: blur(14px);
+    box-shadow: 0 12px 30px rgba(5, 10, 24, 0.28);
     z-index: 1000;
 }
 
@@ -53,7 +53,8 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: var(--primary-color);
+    color: rgba(255, 255, 255, 0.95);
+    letter-spacing: 0.05em;
 }
 
 .nav-menu {
@@ -64,13 +65,15 @@ body {
 
 .nav-menu a {
     text-decoration: none;
-    color: var(--text-dark);
+    color: rgba(255, 255, 255, 0.85);
     font-weight: 500;
-    transition: color 0.3s ease;
+    letter-spacing: 0.02em;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-menu a:hover {
-    color: var(--primary-color);
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(-2px);
 }
 
 .hamburger {
@@ -83,7 +86,7 @@ body {
 .hamburger span {
     width: 25px;
     height: 3px;
-    background: var(--text-dark);
+    background: rgba(255, 255, 255, 0.9);
     transition: all 0.3s ease;
 }
 

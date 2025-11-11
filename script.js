@@ -39,9 +39,11 @@ window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
     
     if (currentScroll > 100) {
-        navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+        navbar.style.background = 'linear-gradient(120deg, rgba(10, 14, 35, 0.96), rgba(12, 18, 48, 0.92))';
+        navbar.style.boxShadow = '0 14px 32px rgba(5, 10, 24, 0.35)';
     } else {
-        navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+        navbar.style.background = 'linear-gradient(120deg, rgba(10, 14, 35, 0.92), rgba(12, 18, 48, 0.85))';
+        navbar.style.boxShadow = '0 12px 30px rgba(5, 10, 24, 0.28)';
     }
     
     lastScroll = currentScroll;
